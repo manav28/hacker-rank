@@ -66,7 +66,7 @@ def queensAttack(n, k, r_q, c_q, obstacles):
         
         # Diagonal
         if abs(obstacles[i][0] - r_q) == abs(obstacles[i][1] - c_q):
-            diff = abs(obstacles[i][0] - r_q) # Any difference is fine
+            diff = abs(obstacles[i][0] - r_q)
             
             # Upper Left Diagonal
             if (obstacles[i][0] > r_q) and (obstacles[i][1] < c_q):
