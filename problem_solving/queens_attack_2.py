@@ -1,3 +1,5 @@
+# Link: https://www.hackerrank.com/challenges/queens-attack-2/problem
+
 def queensAttack(n, k, r_q, c_q, obstacles):
     """
     This function computes the maximum number of moves available to the queen.
